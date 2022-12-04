@@ -29,7 +29,8 @@
                       rounded
                       outlined
                       success
-                    ></v-text-field>
+                    >
+                    </v-text-field>
                   </v-col>
                   <v-col cols="2" class="marginLeft">
                     <v-btn
@@ -39,7 +40,7 @@
                       x-large
                       class="py-7 d-none d-sm-none d-md-flex"
                     >
-                      search
+                      Search
                     </v-btn>
                   </v-col>
                 </v-row>
@@ -47,7 +48,7 @@
             </v-img>
           </v-card>
           <v-toolbar flat color="transparent">
-            <v-toolbar-title class="text-h6">Category</v-toolbar-title>
+            <v-toolbar-title class="text-h6">Categories</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-btn-toggle v-model="toggle_exclusive" group color="#49D9A0">
               <v-btn>
@@ -58,20 +59,16 @@
               </v-btn>
             </v-btn-toggle>
           </v-toolbar>
-
           <Category />
-
           <v-toolbar flat color="transparent" class="mt-5">
-            <v-toolbar-title class="text-h6">Popular Product</v-toolbar-title>
+            <v-toolbar-title class="text-h6">Popular Products</v-toolbar-title>
             <v-spacer></v-spacer>
             <v-btn rounded color="green" dark class="px-8">See All</v-btn>
           </v-toolbar>
           <Product />
           <v-card flat color="#E2F2E5" class="rounded-xl mt-8">
             <v-toolbar flat color="transparent" class="mb-4">
-              <v-toolbar-title class="text-h6 mt-5"
-                >Popular Bundle Pack</v-toolbar-title
-              >
+              <v-toolbar-title class="text-h6 mt-5">Popular Bundle Packs</v-toolbar-title>
               <v-spacer></v-spacer>
             </v-toolbar>
             <Pack />
@@ -87,7 +84,7 @@
                 text-align: center;
               "
             >
-              <h3>What Our Clients Say</h3>
+              <h3>Most Useful Reviews From Our Clients</h3>
             </div>
             <Client />
           </v-card>
